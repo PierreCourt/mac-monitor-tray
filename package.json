@@ -1,0 +1,19 @@
+{
+  "name": "electron-tray",
+  "version": "1.0.0",
+  "description": "show electron web site in tray",
+  "repository": "electron/simple-samples",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "electron-rebuild": "^2.0.1"
+  },
+  "dependencies": {
+    "osx-temperature-sensor": "^1.0.7",
+    "systeminformation": "^4.27.3"
+  }
+}
